@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
-        android:name=".SaveFileApp"
+        android:name=".App"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -27,7 +27,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.fourthprofile.savefiles.fileprovider"
+            android:authorities="com.breens.savefiles.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

@@ -1,7 +1,7 @@
-package com.fourthprofile.savefiles
+package com.breens.savefiles
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
 
 @HiltAndroidApp
-class SaveFileApp : Application()
+class App: Application()

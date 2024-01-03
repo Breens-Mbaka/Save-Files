@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.fourthprofile.savefiles"
+    namespace = "com.breens.savefiles"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.fourthprofile.savefiles"
+        applicationId = "com.breens.savefiles"
         minSdk = 21
         targetSdk = 34
         versionCode = 1

@@ -1,4 +1,4 @@
-package com.fourthprofile.savefiles
+package com.breens.savefiles
 
 import android.graphics.ImageDecoder
 import android.net.Uri
@@ -28,7 +28,7 @@ import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
-import com.fourthprofile.savefiles.utils.retrieveImageFile
+import com.breens.savefiles.utils.retrieveImageFile
 
 @Composable
 fun SavedImagesScreen(absolutePath: String, onNavigateBack: () -> Unit) {
